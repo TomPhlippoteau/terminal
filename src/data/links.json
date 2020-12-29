@@ -1,0 +1,140 @@
+{
+	"bookmarks": [
+		{
+			"category": "Main",
+			"private": false,
+			"color": "cyan",
+			"links": [
+				{
+					"subcategory" : "Email",
+					"links": [
+						{
+							"name": "Gmail",
+							"url": "https://mail.google.com/mail/u/1/#inbox"
+						},
+						{
+							"name": "Proton Mail",
+							"url": "https://mail.protonmail.com/inbox"
+						}
+					]
+				},
+				{
+					"subcategory" : "Social network",
+					"links": [
+						{
+							"name": "Twitter",
+							"url": "https://twitter.com/home"
+						},
+						{
+							"name": "Instagram",
+							"url": "https://www.instagram.com/"
+						}
+					]
+				}
+			]
+
+		},
+		{
+			"category": "Chill",
+			"private": false,
+			"color": "pink",
+			"links": [
+				{
+					"subcategory" : "Streaming",
+					"links": [
+						{
+							"name": "Netflix",
+							"url": "https://www.netflix.com/browse"
+						},
+						{
+							"name": "r/soccerstream",
+							"url": "https://reedit.soccerstreams.net/home"
+						},
+						{
+							"name": "Spotify",
+							"url": "https://open.spotify.com/"
+						},
+						{
+							"name": "Amazon prime Video",
+							"url": "https://www.primevideo.com/"
+						},
+						{
+							"name": "Twitch",
+							"url": "https://www.twitch.tv/"
+						},
+						{
+							"name": "Youtube",
+							"url": "https://www.youtube.com/"
+						}
+					]
+				}
+			]
+
+		},
+		{
+			"category": "Games",
+			"private": false,
+			"color": "lime",
+			"links": [
+				{
+					"subcategory" : "Shops",
+					"links": [
+						{
+							"name": "Steam",
+							"url": "https://steamcommunity.com/"
+						},
+						{
+							"name": "Epic",
+							"url": "https://www.epicgames.com/store/fr/"
+						},
+						{
+							"name": "Humble",
+							"url": "https://www.humblebundle.com/"
+						}
+					]
+				},
+				{
+					"subcategory" : "Prono",
+					"links": [
+						{
+							"name": "Mon petit gazon",
+							"url": "https://mpg.football/dashboard?lang=fr-FR"
+						},
+						{
+							"name": "Score",
+							"url": "https://laravel.com/"
+						}
+					]
+				}
+			]
+
+		},
+		{
+			"category": "Dev",
+			"private": false,
+			"color": "purple",
+			"links": [
+				{
+					"subcategory" : "Back-end",
+					"links": [
+						{
+							"name": "Laravel",
+							"url": "https://laravel.com/"
+						}
+					]
+				},
+				{
+					"subcategory" : "Front-end",
+					"links": [
+						{
+							"name": "Vuejs",
+							"url": "https://vuejs.org/v2/guide/"
+						}
+					]
+				}
+			]
+
+		}
+	]
+
+}

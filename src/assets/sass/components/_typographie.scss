@@ -1,0 +1,39 @@
+body {
+	color: $color-body ;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover {
+		color: lighten($color-command, 10%);
+	}
+}
+
+.terminal-header {
+	color: $color-terminal-header ;
+}
+
+span.username {
+	color: $color-username;
+}
+
+span.command {
+	color: $color-command ;
+}
+
+.c-primary {
+	color: #d81b60;
+}
+
+.c-secondary {
+	color: darken( $color-command, 15%);
+}
+
+.cyan 		{ color: #0097a7; }
+.purple 	{ color: #5e35b1; }
+.pink 		{ color: #d81b60; }
+.red 		{ color: #d32f2f; }
+.lime 		{ color: #afb42b; }
+.orange		{ color: #e64a19; }

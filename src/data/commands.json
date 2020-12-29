@@ -1,0 +1,39 @@
+{
+	"help" : {
+		"command": "help",
+		"description": "List all available commands"
+	},
+	"bookmarks": {
+		"command": "bookmarks",
+		"description": "List all your bookmarks"
+	},
+	"man": {
+		"command": "man xxx",
+		"description": "More info about a specific command"
+	},
+	"specs": {
+		"command" : "specs",
+		"description": "List computer specs"
+	},
+	"open": {
+		"command" : "open xxx",
+		"description": "open a website",
+		"options": [
+			{ "opt" : "s", "man" : "will open in the same tab" }
+		]
+	},
+	"google": {
+		"command" : "google xxx",
+		"description": "search on google",
+		"options": [
+			{ "opt" : "s", "man" : "will open in the same tab" }
+		]
+	},
+	"duck": {
+		"command" : "duck xxx",
+		"description": "search on duckduckgo",
+		"options": [
+			{ "opt" : "s", "man" : "will open in the same tab" }
+		]
+	}
+}

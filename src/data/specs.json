@@ -1,0 +1,83 @@
+{
+	"Home": {
+		"components" : {
+			"cpu" : {
+				"brand": "AMD",
+				"model" : "Ryzen 5 3600 6-Cores @ 3.60Ghz",
+				"url" : "http://google.fr"
+			},
+			"cpu fan" : {
+				"brand": "Be quiet!",
+				"model" : "Pure Rock",
+				"url" : "http://google.fr"
+			},
+			"motherboard" : {
+				"brand": "MSI",
+				"model" : "B450 GAMING PLUS MAX",
+				"url" : "http://google.fr"
+			},
+			"memory ram" : {
+				"brand": "Ballistix",
+				"model" : "Sport LT 8 Go DDR4 3200 MHz CL16 SR x2",
+				"url" : "http://google.fr"
+			},
+			"graphic card" : {
+				"brand": "MSI",
+				"model" : "Gaming X 2070 Super 8Gb DDR6",
+				"url" : "http://google.fr"
+			},
+			"screen primary" : {
+				"brand": "BenQ",
+				"model" : "GL2706PQ",
+				"url" : "http://google.fr"
+			},
+			"screen secondary" : {
+				"brand": "Samsung",
+				"model" : "SyncMaster P2370",
+				"url" : "http://google.fr"
+			},
+			"ssd 1 - windows" : {
+				"brand": "Samsung",
+				"model" : "SSD 860 EVO 1Tb",
+				"url" : "http://google.fr"
+			},
+			"ssd 2 - mint" : {
+				"brand": "Samsung",
+				"model" : "SSD 750 EVO 250Gb",
+				"url" : "http://google.fr"
+			},
+			"hdd" : {
+				"brand": "Western Digital",
+				"model" : "WD10EZEX-60WN4A0 1Tb",
+				"url" : "http://google.fr"
+			},
+			"Power supply" : {
+				"brand": "LDLC",
+				"model" : "US-650G Quality Select 80PLUS Gold ",
+				"url" : "https://www.ldlc.com/fiche/PB00233983.html?offerId=AR201702090106"
+			}
+		},
+		"peripherals" : {
+			"keyboard" : {
+				"brand": "Microsoft",
+				"model" : "Digital Media Keyboard 3000",
+				"url" : "http://google.fr"
+			},
+			"mouse" : {
+				"brand": "Logitech",
+				"model" : "g402",
+				"url" : "http://google.fr"
+			},
+			"audio" : {
+				"brand": "Edifier",
+				"model" : "xxx",
+				"url" : "http://google.fr"
+			},
+			"headset" : {
+				"brand": "Corsair",
+				"model" : "hs70 wireless pro",
+				"url" : "http://google.fr"
+			}
+		}
+	}
+}

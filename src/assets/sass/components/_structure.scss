@@ -1,0 +1,46 @@
+body {
+	background-image: url('https://images.unsplash.com/photo-1608447860289-19fcfc1824a8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
+	background-size: cover;
+	background-position: center;
+	// background-color: rgb(34, 29, 31);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: $font-body-family;
+	font-size: $font-body-size;
+	margin: 0;
+}
+
+.terminal-container {
+
+	width: 40vw;
+	box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1),0 10px 10px -5px rgba(0,0,0,0.04);
+
+	.terminal-header {
+		padding: 0.5rem;
+		text-align: center;
+		background-color: $background-terminal-header;
+		border-radius: $terminal-border-radius $terminal-border-radius 0 0;
+	}
+
+	.terminal-content {
+		height: 40vh;
+		background-color: $background-terminal-content;
+		padding: 1rem;
+		scrollbar-width: thin;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+
+	.terminal-footer {
+		padding: 1rem;
+		background-color: $background-terminal-footer;
+		border-radius: 0 0 $terminal-border-radius $terminal-border-radius;
+	}
+
+	.command-result {
+		padding: 1rem 2rem;
+	}
+
+}

@@ -1,0 +1,144 @@
+@import url("https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css");
+@import url("https://fonts.googleapis.com/css?family=Oswald|Roboto|Source+Code+Pro|Inconsolata&display=swap");
+body {
+  background-image: url("https://images.unsplash.com/photo-1608447860289-19fcfc1824a8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Hack";
+  font-size: 12px;
+  margin: 0;
+}
+
+.terminal-container {
+  width: 40vw;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.terminal-container .terminal-header {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: black;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.terminal-container .terminal-content {
+  height: 40vh;
+  background-color: #191919;
+  padding: 1rem;
+  scrollbar-width: thin;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.terminal-container .terminal-footer {
+  padding: 1rem;
+  background-color: #191919;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.terminal-container .command-result {
+  padding: 1rem 2rem;
+}
+
+body {
+  color: #b0bec5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: #cdd6db;
+}
+
+.terminal-header {
+  color: #90a4ae;
+}
+
+span.username {
+  color: #c2185b;
+}
+
+span.command {
+  color: #b0bec5;
+}
+
+.c-primary {
+  color: #d81b60;
+}
+
+.c-secondary {
+  color: #849aa5;
+}
+
+.cyan {
+  color: #0097a7;
+}
+
+.purple {
+  color: #5e35b1;
+}
+
+.pink {
+  color: #d81b60;
+}
+
+.red {
+  color: #d32f2f;
+}
+
+.lime {
+  color: #afb42b;
+}
+
+.orange {
+  color: #e64a19;
+}
+
+.inlineblock {
+  display: inline-block;
+  vertical-align: top;
+}
+.inlineblock .title {
+  font-weight: bold;
+}
+.inlineblock .subtitle {
+  font-weight: bold;
+}
+
+.ul-bookmarks {
+  width: 25%;
+}
+
+.ul-specs {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.c-help span {
+  display: inline-block;
+}
+.c-help .main {
+  width: 8rem;
+}
+
+.command-type {
+  width: 100%;
+  border: 0 solid;
+  background-color: #161616;
+  color: white;
+  caret-color: #00c800;
+  padding: 0.5rem 0;
+  display: inline-block;
+}
+.command-type:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=app.css.map */

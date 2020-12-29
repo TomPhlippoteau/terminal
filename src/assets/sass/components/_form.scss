@@ -1,0 +1,15 @@
+
+.command-type {
+	width: 100%;
+	border: 0 solid;
+	background-color: darken($background-terminal-content, 1%);
+	color: white;
+	caret-color: rgb(0, 200, 0);
+	padding: 0.5rem 0;
+	display: inline-block;
+
+	&:focus {
+		outline: none;
+	}
+
+}
